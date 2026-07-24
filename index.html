@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bot Soporte - FenixBA | Legal</title>
+  <style>
+    :root {
+      --ink: #1b2430;
+      --ink-soft: #4a5568;
+      --paper: #fbfaf8;
+      --line: #e4e0d8;
+      --accent: #2f5d50;
+      --accent-soft: #e8efec;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Georgia', 'Iowan Old Style', serif;
+      line-height: 1.65;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+      z-index: 10;
+    }
+
+    .topbar-inner {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      font-size: 15px;
+      color: var(--accent);
+    }
+
+    nav {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13px;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: var(--ink-soft);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+
+    nav a:hover,
+    nav a:focus-visible {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 56px 24px 100px;
+    }
+
+    header.hero {
+      margin-bottom: 56px;
+    }
+
+    .eyebrow {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin: 0 0 12px;
+      line-height: 1.2;
+    }
+
+    .lead {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--ink-soft);
+      font-size: 15px;
+      max-width: 56ch;
+    }
+
+    section {
+      margin-bottom: 64px;
+      scroll-margin-top: 90px;
+    }
+
+    section h2 {
+      font-size: 22px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 10px;
+      margin-bottom: 22px;
+    }
+
+    section h3 {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin: 28px 0 10px;
+    }
+
+    p,
+    li {
+      font-size: 16px;
+      color: var(--ink);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .callout {
+      background: var(--accent-soft);
+      border-left: 3px solid var(--accent);
+      padding: 16px 20px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 14px;
+      color: var(--ink-soft);
+      margin: 20px 0;
+    }
+
+    a.inline {
+      color: var(--accent);
+    }
+
+    footer {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 30px 24px 60px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 12px;
+      color: var(--ink-soft);
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 26px;
+      }
+
+      nav {
+        gap: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">BOT SOPORTE · FENIXBA</div>
+      <nav>
+        <a href="#privacidad">Privacidad</a>
+        <a href="#terminos">Términos</a>
+        <a href="#eliminacion">Eliminar datos</a>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <header class="hero">
+      <div class="eyebrow">Documentos legales</div>
+      <h1>Política de privacidad, términos de uso y eliminación de datos</h1>
+      <p class="lead">Esta página describe cómo Bot Soporte - FenixBA trata la información de las personas que se
+        contactan por WhatsApp, en qué condiciones se presta el servicio, y cómo solicitar la eliminación de tus datos.
+        Última actualización: 24 de julio de 2026.</p>
+    </header>
+
+    <section id="privacidad">
+      <h2>Política de privacidad</h2>
+
+      <h3>Quiénes somos</h3>
+      <p>Bot Soporte - FenixBA es un servicio de atención automatizada que opera a través de WhatsApp Business API
+        (Meta), utilizado por FenixBA para responder consultas de clientes y usuarios.</p>
+
+      <h3>Qué información recopilamos</h3>
+      <ul>
+        <li>Tu número de teléfono de WhatsApp.</li>
+        <li>El contenido de los mensajes que nos envías (texto y, si corresponde, otros tipos de mensaje admitidos por
+          WhatsApp).</li>
+        <li>Metadatos técnicos del mensaje provistos por la API de Meta (por ejemplo, marca de tiempo y estado de
+          entrega).</li>
+      </ul>
+
+      <h3>Para qué usamos esta información</h3>
+      <ul>
+        <li>Responder tus consultas de forma automática o derivarlas a una persona del equipo de soporte.</li>
+        <li>Mejorar las respuestas y el funcionamiento del bot.</li>
+        <li>Cumplir con obligaciones legales o regulatorias cuando corresponda.</li>
+      </ul>
+      <p>No vendemos ni compartimos tu información con terceros ajenos al funcionamiento del servicio. La información se
+        procesa a través de la infraestructura de Meta (WhatsApp Business API) y de los servidores propios de FenixBA.
+      </p>
+
+      <h3>Cuánto tiempo conservamos tus datos</h3>
+      <p>Conservamos el historial de conversación mientras sea necesario para brindarte soporte y por el tiempo mínimo
+        requerido por razones administrativas o legales. Podés solicitar la eliminación anticipada en cualquier momento
+        (ver sección "Eliminación de datos" más abajo).</p>
+
+      <h3>Tus derechos</h3>
+      <p>Podés solicitar en cualquier momento acceder a los datos que tenemos sobre vos, corregirlos o pedir que los
+        eliminemos, escribiéndonos por los canales de contacto que figuran al final de esta página.</p>
+
+      <div class="callout">
+        Este bot es reactivo: solo responde a mensajes que vos le enviás primero. No inicia conversaciones por su cuenta
+        ni te agrega a listas de difusión sin tu consentimiento.
+      </div>
+    </section>
+
+    <section id="terminos">
+      <h2>Términos y condiciones de uso</h2>
+
+      <h3>Aceptación</h3>
+      <p>Al escribirle a este número de WhatsApp, aceptás que tus mensajes sean procesados por un sistema automatizado
+        (bot) operado por FenixBA, en los términos descritos en esta página.</p>
+
+      <h3>Uso del servicio</h3>
+      <ul>
+        <li>El bot está pensado para responder consultas frecuentes de soporte. No sustituye asesoramiento profesional,
+          legal ni médico.</li>
+        <li>Nos reservamos el derecho de derivar tu conversación a una persona del equipo cuando la consulta lo
+          requiera.</li>
+        <li>El servicio puede no estar disponible de forma continua, especialmente durante la etapa de pruebas.</li>
+      </ul>
+
+      <h3>Uso indebido</h3>
+      <p>No está permitido usar este canal para enviar contenido ilegal, spam, o intentar vulnerar la seguridad del
+        sistema. FenixBA se reserva el derecho de bloquear números que hagan un uso indebido del servicio.</p>
+
+      <h3>Cambios en los términos</h3>
+      <p>Estos términos pueden actualizarse. La fecha de última actualización figura al inicio de esta página.</p>
+
+      <h3>Contacto</h3>
+      <p>Ante cualquier consulta sobre estos términos, escribinos a través de los canales de contacto que figuran al
+        final de esta página.</p>
+    </section>
+
+    <section id="eliminacion">
+      <h2>Eliminación de datos</h2>
+      <p>Si querés que eliminemos la información asociada a tu número de teléfono (historial de mensajes y datos de
+        contacto asociados), podés solicitarlo de dos formas:</p>
+      <ul>
+        <li><strong>Por WhatsApp:</strong> escribiendo "Eliminar mis datos" al número de soporte de FenixBA.</li>
+        <li><strong>Por correo:</strong> escribiendo a <a class="inline"
+            href="mailto:soporte@fenixba.com">soporte@fenixba.com</a> indicando el número de teléfono a eliminar.</li>
+      </ul>
+      <p>Vamos a procesar la solicitud y confirmar la eliminación dentro de los 30 días posteriores al pedido.</p>
+    </section>
+  </main>
+
+  <footer>
+    FenixBA — Bot Soporte · Documento generado para cumplir con los requisitos de Meta for Developers (WhatsApp Business
+    API).
+  </footer>
+
+</body>
+
+</html>
